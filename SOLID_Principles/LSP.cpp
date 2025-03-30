@@ -46,4 +46,12 @@ class BrokenSimulator: public ISimulator{
   In both the cases, we can see that virtual function concept is applied but in the second case LSP is broken. 
   SO, concept is LSP is implemented using virtual function  concept but condition is that base class and derived classes should behave similarly.
 
+  Final thoughts : 
+    1) Every class that overrides virtual functions should also obey LSP for a better software design architecture - i.e should behave like base class without 
+    causing surprise. 
+
+    SO haan: 
+       1) LSP is built on virtual functions
+       2) but it goes beyond - to ensure expected , correct behavior
+
 */
