@@ -39,4 +39,6 @@ class LaneDetectOffset: public SensorSimulator{
        2) testable
        3) scalable : by adding new features without touching the older code 
        4) readable
+
+       We can add as many features as much we want 
 */
