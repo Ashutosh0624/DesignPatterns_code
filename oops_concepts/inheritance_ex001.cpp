@@ -78,5 +78,7 @@ int main(){
     Rectangle r{12, 14};
     Rectangle r3 = duplicate(r);
     cout<<"length of rectnagle r3 is : "<<r3.getx()<<" "<<"breadth : "<<r3.gety()<<endl;
+    cout<<r3<<endl;
     return 0;
+
  }
